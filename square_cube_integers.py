@@ -1,3 +1,6 @@
+#Name: Malabo, Reniel A.            #Section: BSCPE 1-5
+#Subject: Object-Oriented Programming 
+print ('This program sorts integers from 1-20 into even or odd and separates them into two text files. Even numbers are squared and added to double.txt while odd numbers are cubed and added to triple.txt')
 #Write a method in python that will create two separate text files after reading the source text file named integers.txt that contains 20 integers. The first output file will be named double.txt containing the square of all even integers found in integers.txt and the second file will be named triple.txt containing the cube of all odd numbers found in the integers.txt.
 #def process for opening file
 with open ("integers.txt", "r") as integer_file:
