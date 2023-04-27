@@ -3,10 +3,10 @@
 with open ("integers.txt", "r") as integer_file:
     integers = list(map(int, integer_file.read().split()))
 #compute int squared
-def square(x):
+def squared(x):
     return x **2
 #computed int cubed
-def cube(x):
+def cubed(x):
     return x** 3
 #create list for both even & odd
 even=[]
@@ -21,3 +21,9 @@ for i in integers:
     else:
         odd.append(integer)
 #make text files for both even and odd
+with open("double.txt", "w") as squared:
+    for even in even:
+        squared.write(str(squared(even)))
+with open("triple.txt", "w") as cubed:
+    for odd in odd:
+        cubed.write(str(cubed(odd)))
