@@ -21,9 +21,9 @@ for i in integers:
     else:
         odd.append(integer)
 #make text files for both even and odd
-with open("double.txt", "w") as squared:
+with open("double.txt", "w") as squared_file:
     for even in even:
-        squared.write(str(squared(even)))
-with open("triple.txt", "w") as cubed:
+        squared_file.write(str(squared(even)))
+with open("triple.txt", "w") as cubed_file:
     for odd in odd:
-        cubed.write(str(cubed(odd)))
+        cubed_file.write(str(cubed(odd)))
