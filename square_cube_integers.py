@@ -20,5 +20,5 @@ for i in integers:
         even.append(integer)
     #if odd, add to odd list
     else:
-
+        odd.append(integer)
 #make text files for both even and odd
