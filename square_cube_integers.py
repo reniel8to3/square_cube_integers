@@ -13,7 +13,12 @@ def cube(x):
 even=[]
 odd=[]
 #check if even or odd
+for i in integers:
+    integer=int(i)
+    #if even, add to even list
+    if integer %2 ==0:
+        even.append(integer)
+    #if odd, add to odd list
+    else:
 
-
-
-#make text files for both even and odd.
+#make text files for both even and odd
