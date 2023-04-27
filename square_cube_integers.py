@@ -2,10 +2,12 @@
 
 #def process for opening file
 
-#define int squared
-
-#define int cubed
-
+#compute int squared
+def square(x):
+    return x **2
+#computed int cubed
+def cube(x):
+    return x** 3
 #create list for both even & odd
 
 #check if even or odd
