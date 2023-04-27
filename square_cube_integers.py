@@ -23,7 +23,7 @@ for i in integers:
 #make text files for both even and odd
 with open("double.txt", "w") as squared_file:
     for even in even:
-        squared_file.write(str(squared(even)))
+        squared_file.write(str(squared(even))+"\n")
 with open("triple.txt", "w") as cubed_file:
     for odd in odd:
-        cubed_file.write(str(cubed(odd)))
+        cubed_file.write(str(cubed(odd))+"\n")
